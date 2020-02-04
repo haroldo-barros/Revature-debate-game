@@ -12,6 +12,7 @@ public class QuestionController {
 
 	@GetMapping("/getExample")
 	public String getExampleQuestion() {
+		System.out.println("The getExample method has been called.");
 		return "The question controller's getExampleQuestion method is working.";
 	}
 }
